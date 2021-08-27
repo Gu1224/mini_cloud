@@ -1,0 +1,1 @@
+"D:\apps\微信web开发者工具\cli.bat" cloud functions deploy --e gyh-bb8612 --n quickstartFunctions --r --project "E:\Project\mini\cloudTest" --report_start --report
