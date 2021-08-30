@@ -1,24 +1,31 @@
 {
   "pages": [
-    "pages/index/index",
-    "pages/getOpenId/index",
-    "pages/getMiniProgramCode/index",
-    "pages/deployService/index",
-    "pages/createCollection/index",
-    "pages/uploadFile/index",
-    "pages/selectRecord/index",
-    "pages/updateRecord/index",
-    "pages/updateRecordResult/index",
-    "pages/updateRecordSuccess/index",
-    "pages/sumRecord/index",
-    "pages/sumRecordResult/index"
+    "pages/student/students/students",
+    "pages/student/addStudent/addStudent",
+    "pages/student/editStudent/editStudent",
+    "pages/index/index"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",
     "backgroundTextStyle": "light",
     "navigationBarBackgroundColor": "#F6F6F6",
-    "navigationBarTitleText": "云开发 QuickStart",
+    "navigationBarTitleText": "备忘录",
     "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "color": "#333",
+    "selectedColor": "#0c89e6",
+    "list": [{
+      "pagePath": "pages/student/students/students",
+      "text": "学生",
+      "iconPath": "images/deploy_step1.png",
+      "selectedIconPath": "images/deploy_step2.png"
+    }, {
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/deploy_step1.png",
+      "selectedIconPath": "images/deploy_step2.png"
+    }]
   },
   "sitemapLocation": "sitemap.json",
   "style": "v2"

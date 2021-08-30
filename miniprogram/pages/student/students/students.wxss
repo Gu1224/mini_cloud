@@ -1,0 +1,56 @@
+/* pages/student/student.wxss */
+page {
+  background-color: #f6f6f6;
+}
+
+.clickClass {
+  box-shadow: 1px 1px 5px #d2d4d2;
+}
+
+/* 列表页面 */
+/* 列表 */
+.item-list {
+  padding: 20px;
+}
+
+.item {
+  padding: 20px;
+  border-radius: 10px;
+  background-color: #fff;
+  position: relative;
+}
+
+.item:not(:nth-last-child(1)) {
+  margin-bottom: 20px;
+}
+
+.del-item {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 50px;
+}
+
+#del-btn {
+  width: 100%;
+  background: none;
+  padding: 3px 5px;
+  color: #ff8f8f;
+  border: 1px solid #ff8f8f;
+}
+
+/* 添加按钮 */
+.add-student-btn {
+  position: fixed;
+  width: 90rpx;
+  height: 90rpx;
+  right: 20px;
+  bottom: 20px;
+  box-shadow: 0 0 10px #0c89e6;
+  border-radius: 50%;
+  font-size: 30px;
+  text-align: center;
+  color: #0c89e6;
+}
+
+/* 列表页面(结束) */

@@ -1,0 +1,24 @@
+<!--pages/student/student.wxml-->
+<view class="container">
+  <!-- 列表 -->
+  <block>
+    <view class="item-list">
+      <navigator class="item" wx:for="{{ studentList }}" wx:key="index" hover-class="clickClass"
+        url="../editStudent/editStudent?id={{ item._id }}">
+        <!-- <view> -->
+        <view class="name">姓名：{{ item.name }}</view>
+        <view class="gender">性别：{{ item.gender }}</view>
+        <view class="age">年龄：{{ item.age }}</view>
+        <view class="hobby">爱好：{{ item.hobby }}</view>
+        <view class="del-item">
+          <button id="del-btn" catchtap="delItem" data-id="{{ item._id }}">删除</button>
+        </view>
+      </navigator>
+      <!-- </view> -->
+    </view>
+  </block>
+  <!-- 添加按钮 -->
+  <navigator url="../addStudent/addStudent">
+    <view class="add-student-btn">+</view>
+  </navigator>
+</view>

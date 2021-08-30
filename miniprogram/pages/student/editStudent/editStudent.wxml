@@ -1,0 +1,29 @@
+<!--pages/student/editStudent/editStudent.wxml-->
+<block>
+  <view class="item-edit">
+    <!-- 表单 -->
+    <view class="form">
+      <view class="row">
+        <label for="name" class="name-label">姓名</label>
+        <input type="text" class="name name-input" model:value="{{ name }}" />
+      </view>
+      <view class="row">
+        <label for="gender" class="gender-label">性别</label>
+        <input type="text" class="gender gender-input" model:value="{{ gender }}" />
+      </view>
+      <view class="row">
+        <label for="age" class="age-label">年龄</label>
+        <input type="text" class="age age-input" model:value="{{ age }}" />
+      </view>
+      <view class="row">
+        <label for="hobby" class="hobby-label">爱好</label>
+        <input type="text" class="hobby hobby-input" model:value="{{ hobby }}" />
+      </view>
+    </view>
+    <!-- 按钮组 -->
+    <view class="btn-group">
+      <view class="back2List" bindtap="navigateToList" hover-class="clickClass">返回</view>
+      <view class="commitForm" bindtap="updItem" hover-class="clickClass">提交</view>
+    </view>
+  </view>
+</block>

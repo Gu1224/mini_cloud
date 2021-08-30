@@ -1,0 +1,63 @@
+/* pages/student/addStudent/addStudent.wxss */
+/* 添加 */
+.item-add {
+  padding: 20px;
+  background: #fff;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+}
+
+.name-label,
+.gender-label,
+.age-label,
+.hobby-label {
+  width: 50px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.name-input,
+.gender-input,
+.age-input,
+.hobby-input {
+  height: 30px;
+  border: 1px dashed #0c89e6;
+  flex: 1;
+}
+
+.btn-group {
+  display: flex;
+  margin-top: 50rpx;
+  justify-content: space-evenly;
+}
+
+.commitForm,
+.back2List {
+  box-sizing: border-box;
+  text-align: center;
+  width: 47%;
+  height: 5rpx;
+  padding: 20px;
+  border-radius: 15rpx;
+  color: #fff;
+  font-size: 40rpx;
+  font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.commitForm {
+  background: #1aad19;
+}
+
+.back2List {
+  background: #d2d4d2;
+}
+
+/* 添加页面(结束) */
